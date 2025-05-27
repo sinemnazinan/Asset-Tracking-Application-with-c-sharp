@@ -125,7 +125,7 @@ DBCC CHECKIDENT ('Ürünler', RESEED, 0);
 ---
 
 ## 🖼️ Ekran Görüntüleri
-![.](screenshots/zimmet.png)
+
 
 ### Giriş Ekranı
 ![Giriş](screenshots/giriş.png)
