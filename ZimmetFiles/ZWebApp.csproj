@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <BaseOutputPath></BaseOutputPath>
+
+	
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Bera_icon.ico" />
+    <None Remove="tutunak.pdf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Bera_icon.ico" />
+    <EmbeddedResource Include="tutanak.pdf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="itext7" Version="9.0.0" />
+    <PackageReference Include="itext7.bouncy-castle-adapter" Version="9.0.0" />
+    <PackageReference Include="itext7.bouncy-castle-fips-adapter" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+    <PackageReference Include="Spire.PDF" Version="11.2.4" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resource1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
