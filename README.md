@@ -3,7 +3,7 @@
 Kurumsal varlıkların (telefon, sim kart, cihaz, vb.) zimmetlenmesi, takibi ve belge yönetimi için geliştirilmiş bir Windows Forms uygulamasıdır.
 
 > Bu uygulama **Bera Holding Bilgi İşlem Daire Başkanlığı** için, **tek kişi tarafından** staj projesi kapsamında geliştirilmiştir.
-![Giriş](screenshots/zimmet.png)
+
 ---
 
 ## 🚀 Uygulama Özellikleri
@@ -125,6 +125,7 @@ DBCC CHECKIDENT ('Ürünler', RESEED, 0);
 ---
 
 ## 🖼️ Ekran Görüntüleri
+![.](screenshots/zimmet.png)
 
 ### Giriş Ekranı
 ![Giriş](screenshots/giriş.png)
